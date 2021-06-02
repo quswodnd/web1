@@ -1,0 +1,36 @@
+BODY{
+  margin: 0;
+}
+  a {
+    color: black;
+text-decoration: none;
+  }
+  h1 {
+font-size: 150px;
+text-align: center;
+border-bottom: 1PX SOLID GRAY;
+margin: 0;
+padding: 5PX;
+}
+OL{
+    border-right: 1PX SOLID GRAY;
+    width: 100PX;
+    margin: 0;
+    padding: 20PX;
+  }
+  #GRID{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+@media(MAX-width:500PX){
+  H1{
+    font-size: 50PX;
+    BORDER:NONE;
+  }
+  OL{
+    border: NONE;
+  }
+  #GRID{
+    display: block;
+  }
+}
